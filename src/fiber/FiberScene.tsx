@@ -4,7 +4,7 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas, useThree } from "@react-three/fiber";
 
 // @ts-ignore
-import WebGPURenderer from "three/examples/jsm/renderers/webgpu/WebGPURenderer.js";
+import { WebGPURenderer } from "three/src/Three.WebGPU";
 
 import Box from "./Box";
 
